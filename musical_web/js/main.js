@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var topbar   = document.querySelector('.topbar');
     var isIndex  = document.body.classList.contains('index-page');
   
-    //햄버거를낋여오늬라
+    //hamburger
     if (burger){
       burger.addEventListener('click', function(){
         burger.classList.toggle('open');
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
     
-      //사이드커서대면자동으로열리기
+      //sidebar
       if (!isIndex) {
         var handle = document.createElement('div');
         handle.id  = 'sidemenu-handle';
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
         sidemenu.addEventListener('mouseleave', closeMenu);
       }
     
-      //아래페이드
+      //fade
       if (isIndex) {
         var slides = document.querySelectorAll('.slide');
         if (slides.length) {
