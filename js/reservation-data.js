@@ -17,15 +17,6 @@ window.CURRENT = [
       cast  : '박효신·카이·전동석·이지혜 외',
       link  : 'https://tickets.interpark.com/goods/P0004249?app_tapbar_state=hide&'
     },
-    {
-      title : '강호석 이상하다',
-      poster: '../img/po-kang.jpg',
-      synop : '할 말이 없는데,,,,',
-      period: '2008.02.26 - 2866.13.68',
-      venue : '수원시 영통구 ',
-      cast  : '엑스트라',
-      link  : 'https://solved.ac/profile/suhodnkla'
-    },
       {
         title : '브로드웨이 42번가',
         poster: '../img/po-42nd.gif',
@@ -34,15 +25,6 @@ window.CURRENT = [
         venue : '샤롯데씨어터',
         cast  : '박칼린·박건형·양준모·정영주·윤공주·장지후·기세중 외',
         link  : 'https://tickets.interpark.com/goods/25007451?app_tapbar_state=hide&#'
-      },
-      {
-        title : '이석민',
-        poster: '../img/po-stone.jpg',
-        synop : '안녕하세요 저는 빠른 돌멩이입니다. 저는 과거 짱돌 출신이지만 과거를 청산했습니다.',
-        period: '2008.03.28 - 2020.02.02',
-        venue : '화성시 동탄 2',
-        cast  : '아하하',
-        link  : 'https://www.instagram.com/seokmin._.0328?igsh=MjJqb3kzMGtzNjR2'
       },
       {
         title : '매디슨 카운티의 다리',
