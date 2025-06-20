@@ -1,3 +1,4 @@
+
 const CHO_LIST = ['ㄱ','ㄲ','ㄴ','ㄷ','ㄸ','ㄹ','ㅁ','ㅂ','ㅃ','ㅅ','ㅆ','ㅇ','ㅈ','ㅉ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ'];
 const CHO_MAP  = { 'ㄲ':'ㄱ','ㄸ':'ㄷ','ㅃ':'ㅂ','ㅆ':'ㅅ','ㅉ':'ㅈ' };
 const PER_PAGE = 20;
@@ -57,7 +58,6 @@ function render(){
 
 render();
 
-/* event */
 search.addEventListener('input', e => {
   curText = e.target.value.trim();
   curPage = 1;
@@ -81,7 +81,6 @@ nextBtn.addEventListener('click', () => {
   if (curPage < totalPages){ curPage++; render(); }
 });
 
-/* toggle */
 list.addEventListener('click', e => {
   if (e.target.tagName !== 'DT') return;
   e.target.classList.toggle('open');

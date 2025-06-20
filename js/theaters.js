@@ -35,7 +35,7 @@ function openModal(t) {
 }
 function closeModal() { modal.classList.remove('show'); }
 
-/* 이벤트 바인딩 */
+/* 모달닫기*/
 btnClose.addEventListener('click', closeModal);
 modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
 window.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
