@@ -150,6 +150,23 @@ input[type=search]{background:#1a1a1a;color:#f4f4f4;}
 .theater-list{display:grid;gap:1rem;margin-top:1rem;}
 .t-item{cursor:pointer;font-weight:600;}
 .t-item:hover{color:#ff3366;}
+
+@keyframes fadeInModal {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .modal.show .modal-box {
+    animation: fadeInModal 0.23s ease-out;
+  }
+  
+
 /* 현재 뮤지컬 캐러셀 */
 .carousel{
   position:relative;
