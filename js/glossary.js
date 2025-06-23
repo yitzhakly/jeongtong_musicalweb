@@ -81,6 +81,7 @@ nextBtn.addEventListener('click', () => {
   if (curPage < totalPages){ curPage++; render(); }
 });
 
+/* 토글열기*/
 list.addEventListener('click', e => {
   if (e.target.tagName !== 'DT') return;
   e.target.classList.toggle('open');
